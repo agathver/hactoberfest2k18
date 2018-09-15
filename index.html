@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Hactoberfest</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="digitalocean_1yK_icon.ico" type="image/x-icon">
+    <link rel="icon" href="digitalocean_1yK_icon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">What we do</a></li>
+                    
+                    <li><a class="smoothscroll"  href="#values" title="works">Values</a></li>
+                    <li><a class="smoothscroll"  href="#agenda" title="works">Agenda</a></li>
+                    <li><a class="smoothscroll"  href="#analysis" title="services">Analysis</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+    
+    
+                <ul class="header-nav__social">
+                        <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39px" height="39px" viewBox="0 0 39 39" version="1.1" role="img" aria-labelledby="s37o96v5w0qup83324gnuptvtmssrt3 l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="s37o96v5w0qup83324gnuptvtmssrt3">DigitalOcean</title>
+                                    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                                    
+                                    <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                                    <defs></defs>
+                                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="hacktoberfest-landing_v7" transform="translate(-701.000000, -3009.000000)" fill="#FFFFFF">
+                                            <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                                <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                                    <g id="icon-do" transform="translate(0.000000, 1.000000)">
+                                                        <g id="XMLID_48_">
+                                                            <path d="M19.4430023,38.7428583 L19.4430023,31.3133455 C27.3388695,31.3133455 33.4091026,23.519194 30.3968064,15.2236643 C29.301426,12.1698155 26.8368201,9.7085045 23.7788831,8.6145885 C15.4722483,5.6063195 7.66766289,11.7140172 7.66766289,19.5537485 L7.66766289,19.5537485 L0.228204253,19.5537485 C0.228204253,7.01929433 12.3686705,-2.78036983 25.5132354,1.32181517 C31.2639826,3.09942867 35.8280677,7.70299184 37.6537017,13.4460508 C41.7613782,26.6186227 31.9942362,38.7428583 19.4430023,38.7428583 L19.4430023,38.7428583 Z" id="XMLID_49_"></path>
+                                                        </g>
+                                                        <polygon id="XMLID_47_" points="19.4430023 31.3589253 12.0491845 31.3589253 12.0491845 23.9749923 12.0491845 23.9749923 19.4430023 23.9749923 19.4430023 23.9749923"></polygon>
+                                                        <polygon id="XMLID_46_" points="12.0491845 37.0564045 6.34407822 37.0564045 6.34407822 37.0564045 6.34407822 31.3589253 12.0491845 31.3589253"></polygon>
+                                                        <path d="M6.34407822,31.3589253 L1.55178892,31.3589253 L1.55178892,31.3589253 L1.55178892,26.6186227 L1.55178892,26.6186227 L6.29843737,26.6186227 L6.29843737,26.6186227 L6.29843737,31.3589253 L6.34407822,31.3589253 Z" id="XMLID_45_"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            <a href="https://www.digitalocean.com/"><i class="fab fa-digital-ocean" aria-hidden="true"></i><span>Digital Oceans</span></a>
+                        </li>
+                        <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="39px" viewBox="0 0 40 39" version="1.1" role="img" aria-labelledby="dbzkbmj8rgatuszlkfivony3fkorp8f l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="dbzkbmj8rgatuszlkfivony3fkorp8f">GitHub</title>
+                                    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                                    
+                                    <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                                    <defs></defs>
+                                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="hacktoberfest-landing_v7" transform="translate(-780.000000, -3009.000000)" fill="#FEFEFE">
+                                            <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                                <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                                    <path d="M98.9987723,1 C87.9551872,1 79,9.95254676 79,20.9953303 C79,29.8275933 84.7298956,37.3220066 92.6783303,39.9657941 C93.6789441,40.1486745 94.043585,39.5325272 94.043585,39.0022968 C94.043585,38.5272988 94.0263966,37.2704565 94.0165746,35.6012127 C88.4536525,36.8101871 87.2799263,32.9218311 87.2799263,32.9218311 C86.3701657,30.6118924 85.0589319,29.9969725 85.0589319,29.9969725 C83.2430939,28.7560862 85.1964395,28.7818613 85.1964395,28.7818613 C87.203806,28.9230105 88.2596685,30.8414134 88.2596685,30.8414134 C90.043585,33.8976023 92.9398404,33.0151124 94.0804174,32.5032928 C94.262124,31.2108563 94.7777778,30.3295938 95.3499079,29.8300481 C90.9091467,29.3255928 86.2400246,27.6109359 86.2400246,19.9483708 C86.2400246,17.7660802 87.019644,15.9814623 88.2989564,14.5834707 C88.0926949,14.077788 87.4063843,12.0452383 88.4941682,9.29344098 C88.4941682,9.29344098 90.1737262,8.75461893 93.9944751,11.3419467 C95.5893186,10.8988607 97.300798,10.676704 99.0012277,10.6693396 C100.699202,10.676704 102.410681,10.8988607 104.00798,11.3419467 C107.826274,8.75461893 109.502149,9.29344098 109.502149,9.29344098 C110.593616,12.0452383 109.907305,14.077788 109.701044,14.5834707 C110.982812,15.9814623 111.75752,17.7660802 111.75752,19.9483708 C111.75752,27.6293467 107.081031,29.3194559 102.625537,29.8153195 C103.343769,30.4314668 103.983425,31.652715 103.983425,33.5171129 C103.983425,36.1903576 103.95887,38.3468732 103.95887,39.0022968 C103.95887,39.5362093 104.3186,40.1584935 105.333947,39.9633393 C113.273788,37.3146423 119,29.8251386 119,20.9953303 C119,9.95254676 110.044813,1 98.9987723,1" id="icon-github"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            <a href="https://github.com/"><i class="#" aria-hidden="true"></i><span>Github</span></a>
+                        </li><br>
+                        <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 0 40 40" version="1.1" role="img" aria-labelledby="hydiohj5b0n8wz6lca2ye4u5iaj80xd l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="hydiohj5b0n8wz6lca2ye4u5iaj80xd">Twilio</title>
+                                    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                                    
+                                    <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                                    <defs></defs>
+                                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="hacktoberfest-landing_v7" transform="translate(-860.000000, -3008.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                            <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                                <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                                    <g id="icon-twilio" transform="translate(159.000000, 0.000000)">
+                                                        <path d="M20,0 C8.93333333,0 0,8.93333333 0,20 C0,31.0666667 8.93333333,40 20,40 C31.0666667,40 40,31.0666667 40,20 C40,8.93333333 31.0666667,0 20,0 Z M20,34.6666667 C11.8666667,34.6666667 5.33333333,28.1333333 5.33333333,20 C5.33333333,11.8666667 11.8666667,5.33333333 20,5.33333333 C28.1333333,5.33333333 34.6666667,11.8666667 34.6666667,20 C34.6666667,28.1333333 28.1333333,34.6666667 20,34.6666667 Z M29.0666667,15.0666667 C29.0666667,17.3333333 27.2,19.2 24.9333333,19.2 C22.6666667,19.2 20.8,17.3333333 20.8,15.0666667 C20.8,12.8 22.6666667,10.9333333 24.9333333,10.9333333 C27.2,10.9333333 29.0666667,12.8 29.0666667,15.0666667 Z M29.0666667,24.9333333 C29.0666667,27.2 27.2,29.0666667 24.9333333,29.0666667 C22.6666667,29.0666667 20.8,27.2 20.8,24.9333333 C20.8,22.6666667 22.6666667,20.8 24.9333333,20.8 C27.2,20.8 29.0666667,22.6666667 29.0666667,24.9333333 Z M19.2,24.9333333 C19.2,27.2 17.3333333,29.0666667 15.0666667,29.0666667 C12.8,29.0666667 10.9333333,27.2 10.9333333,24.9333333 C10.9333333,22.6666667 12.8,20.8 15.0666667,20.8 C17.3333333,20.8 19.2,22.6666667 19.2,24.9333333 Z M19.2,15.0666667 C19.2,17.3333333 17.3333333,19.2 15.0666667,19.2 C12.8,19.2 10.9333333,17.3333333 10.9333333,15.0666667 C10.9333333,12.8 12.8,10.9333333 15.0666667,10.9333333 C17.3333333,10.9333333 19.2,12.8 19.2,15.0666667 Z" id="Shape"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            <a href="https://www.twilio.com/"><i class="fa fa-twilio" aria-hidden="true"></i><span>Twilio</span></a>
+                        </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0" style="top:2%">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/back.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hacktoberfest Open Hack Fest!</h3>
+
+                <h1>
+                    It's <span style=" color: orangered"> Hacktoberfest</span> 2018! <br>
+                    Let's celebrate open source over
+                    <br> food, drinks, learning, and great company!<br>
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#" class="smoothscroll btn btn--stroke">
+                        Register Now
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Us
+                    </a>
+
+                    <time datetime="2014-09-20" class="icon">
+                            <em>At Zairza</em>
+                            <strong>October</strong>
+                            <span>1</span>
+                          </time>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+                <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39px" height="39px" viewBox="0 0 39 39" version="1.1" role="img" aria-labelledby="s37o96v5w0qup83324gnuptvtmssrt3 l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="s37o96v5w0qup83324gnuptvtmssrt3">DigitalOcean</title>
+                            <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                            
+                            <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hacktoberfest-landing_v7" transform="translate(-701.000000, -3009.000000)" fill="#FFFFFF">
+                                    <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                        <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                            <g id="icon-do" transform="translate(0.000000, 1.000000)">
+                                                <g id="XMLID_48_">
+                                                    <path d="M19.4430023,38.7428583 L19.4430023,31.3133455 C27.3388695,31.3133455 33.4091026,23.519194 30.3968064,15.2236643 C29.301426,12.1698155 26.8368201,9.7085045 23.7788831,8.6145885 C15.4722483,5.6063195 7.66766289,11.7140172 7.66766289,19.5537485 L7.66766289,19.5537485 L0.228204253,19.5537485 C0.228204253,7.01929433 12.3686705,-2.78036983 25.5132354,1.32181517 C31.2639826,3.09942867 35.8280677,7.70299184 37.6537017,13.4460508 C41.7613782,26.6186227 31.9942362,38.7428583 19.4430023,38.7428583 L19.4430023,38.7428583 Z" id="XMLID_49_"></path>
+                                                </g>
+                                                <polygon id="XMLID_47_" points="19.4430023 31.3589253 12.0491845 31.3589253 12.0491845 23.9749923 12.0491845 23.9749923 19.4430023 23.9749923 19.4430023 23.9749923"></polygon>
+                                                <polygon id="XMLID_46_" points="12.0491845 37.0564045 6.34407822 37.0564045 6.34407822 37.0564045 6.34407822 31.3589253 12.0491845 31.3589253"></polygon>
+                                                <path d="M6.34407822,31.3589253 L1.55178892,31.3589253 L1.55178892,31.3589253 L1.55178892,26.6186227 L1.55178892,26.6186227 L6.29843737,26.6186227 L6.29843737,26.6186227 L6.29843737,31.3589253 L6.34407822,31.3589253 Z" id="XMLID_45_"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    <a href="https://www.digitalocean.com/"><i class="fab fa-digital-ocean" aria-hidden="true"></i><span>Digital Oceans</span></a>
+                </li>
+                <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="39px" viewBox="0 0 40 39" version="1.1" role="img" aria-labelledby="dbzkbmj8rgatuszlkfivony3fkorp8f l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="dbzkbmj8rgatuszlkfivony3fkorp8f">GitHub</title>
+                            <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                            
+                            <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hacktoberfest-landing_v7" transform="translate(-780.000000, -3009.000000)" fill="#FEFEFE">
+                                    <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                        <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                            <path d="M98.9987723,1 C87.9551872,1 79,9.95254676 79,20.9953303 C79,29.8275933 84.7298956,37.3220066 92.6783303,39.9657941 C93.6789441,40.1486745 94.043585,39.5325272 94.043585,39.0022968 C94.043585,38.5272988 94.0263966,37.2704565 94.0165746,35.6012127 C88.4536525,36.8101871 87.2799263,32.9218311 87.2799263,32.9218311 C86.3701657,30.6118924 85.0589319,29.9969725 85.0589319,29.9969725 C83.2430939,28.7560862 85.1964395,28.7818613 85.1964395,28.7818613 C87.203806,28.9230105 88.2596685,30.8414134 88.2596685,30.8414134 C90.043585,33.8976023 92.9398404,33.0151124 94.0804174,32.5032928 C94.262124,31.2108563 94.7777778,30.3295938 95.3499079,29.8300481 C90.9091467,29.3255928 86.2400246,27.6109359 86.2400246,19.9483708 C86.2400246,17.7660802 87.019644,15.9814623 88.2989564,14.5834707 C88.0926949,14.077788 87.4063843,12.0452383 88.4941682,9.29344098 C88.4941682,9.29344098 90.1737262,8.75461893 93.9944751,11.3419467 C95.5893186,10.8988607 97.300798,10.676704 99.0012277,10.6693396 C100.699202,10.676704 102.410681,10.8988607 104.00798,11.3419467 C107.826274,8.75461893 109.502149,9.29344098 109.502149,9.29344098 C110.593616,12.0452383 109.907305,14.077788 109.701044,14.5834707 C110.982812,15.9814623 111.75752,17.7660802 111.75752,19.9483708 C111.75752,27.6293467 107.081031,29.3194559 102.625537,29.8153195 C103.343769,30.4314668 103.983425,31.652715 103.983425,33.5171129 C103.983425,36.1903576 103.95887,38.3468732 103.95887,39.0022968 C103.95887,39.5362093 104.3186,40.1584935 105.333947,39.9633393 C113.273788,37.3146423 119,29.8251386 119,20.9953303 C119,9.95254676 110.044813,1 98.9987723,1" id="icon-github"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    <a href="https://github.com/"><i class="#" aria-hidden="true"></i><span>Github</span></a>
+                </li>
+                <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 0 40 40" version="1.1" role="img" aria-labelledby="hydiohj5b0n8wz6lca2ye4u5iaj80xd l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="hydiohj5b0n8wz6lca2ye4u5iaj80xd">Twilio</title>
+                            <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                            
+                            <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hacktoberfest-landing_v7" transform="translate(-860.000000, -3008.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                        <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                            <g id="icon-twilio" transform="translate(159.000000, 0.000000)">
+                                                <path d="M20,0 C8.93333333,0 0,8.93333333 0,20 C0,31.0666667 8.93333333,40 20,40 C31.0666667,40 40,31.0666667 40,20 C40,8.93333333 31.0666667,0 20,0 Z M20,34.6666667 C11.8666667,34.6666667 5.33333333,28.1333333 5.33333333,20 C5.33333333,11.8666667 11.8666667,5.33333333 20,5.33333333 C28.1333333,5.33333333 34.6666667,11.8666667 34.6666667,20 C34.6666667,28.1333333 28.1333333,34.6666667 20,34.6666667 Z M29.0666667,15.0666667 C29.0666667,17.3333333 27.2,19.2 24.9333333,19.2 C22.6666667,19.2 20.8,17.3333333 20.8,15.0666667 C20.8,12.8 22.6666667,10.9333333 24.9333333,10.9333333 C27.2,10.9333333 29.0666667,12.8 29.0666667,15.0666667 Z M29.0666667,24.9333333 C29.0666667,27.2 27.2,29.0666667 24.9333333,29.0666667 C22.6666667,29.0666667 20.8,27.2 20.8,24.9333333 C20.8,22.6666667 22.6666667,20.8 24.9333333,20.8 C27.2,20.8 29.0666667,22.6666667 29.0666667,24.9333333 Z M19.2,24.9333333 C19.2,27.2 17.3333333,29.0666667 15.0666667,29.0666667 C12.8,29.0666667 10.9333333,27.2 10.9333333,24.9333333 C10.9333333,22.6666667 12.8,20.8 15.0666667,20.8 C17.3333333,20.8 19.2,22.6666667 19.2,24.9333333 Z M19.2,15.0666667 C19.2,17.3333333 17.3333333,19.2 15.0666667,19.2 C12.8,19.2 10.9333333,17.3333333 10.9333333,15.0666667 C10.9333333,12.8 12.8,10.9333333 15.0666667,10.9333333 C17.3333333,10.9333333 19.2,12.8 19.2,15.0666667 Z" id="Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    <a href="https://www.twilio.com/"><i class="fa fa-twilio" aria-hidden="true"></i><span>Twilio</span></a>
+                </li>
+           
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Hello There</h3>
+                <h1 class="display-1 display-1--light">What Is Hactoberfest?</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full"  style="text-align: justify; font-family: 'Lato', sans-serif">
+                
+                    
+                        <p>Hacktoberfest is a month-long celebration of open source software.
+                        </p>
+                        <p>
+                                Hacktoberfest — brought to you by DigitalOcean in partnership with GitHub and Twilio — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like, and ones they've just discovered. No contribution is too small—bug fixes and documentation updates are valid ways of participating.
+
+                               </p>
+                               
+                                    
+                        <!-- <p>We offer a wide variety of Technology/Domain focused workshops/Training to the student community to enhance the experience of the
+                        Digital Learning
+                        </p>
+                        <p>Our differentiators are <b>Customized Workshops</b>, <b>Alignment to Industry Course Curriculum</b>, <b>Step wise Career Development
+                        (Semester wise)</b>
+                        </p>
+                     -->
+                        
+                
+            </div>
+        </div> <!-- end about-desc -->
+        <div class="row services-list block-1-3 block-tab-full">
+
+                <div class="col-block service-item" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3 class="h2">Who</h3>
+                        <p>Hacktoberfest is open to everyone in our global community!
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="col-block service-item" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fa fa-code-fork"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3 class="h2">How</h3>
+                        <p>Five pull requests must be made to GitHub-hosted repositories.
+
+
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="col-block service-item" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fa fa-calendar"></i>
+                    </div>  
+                    <div class="service-text">
+                        <h3 class="h2">When</h3>
+                        <p>You can sign up anytime between October 1 and October 31.</p>
+                    </div>
+                </div>
+    
+            </div> <!-- end services-list -->
+    
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+   
+
+    <!-- works
+    ================================================== -->
+    <section id='values' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">what You Will Get</h3>
+                <h1 class="display-2">Rules and Prizes </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+        <ul>                    <li>First sign up on the Hacktoberfest site.</li>
+            <li>If you open up five pull requests between October 1 and October 31, you'll win a free, limited edition Hacktoberfest T-shirt. (Pull requests do not have to be merged and accepted; as long as they've been opened between the very start of October 1 and the very end of October 31, they count towards a free T-shirt.)
+</li>
+                           <li> Connect with other Hacktoberfest participants (Hacktobefestants?) by using the hashtag, #hacktoberfest, on your social media platform of choice.
+                            </li>
+                            <li>New to DigitalOcean? Receive USD $10 in infrastructure credit at<a href=""> do.co/hacktoberfest2018.</a></li>
+                            
+        </ul>
+        <p> Can't make it to this event? Hacktoberfest is virtual and open to participants from around the globe.
+                Sign up to participate today.</p>
+                <div style="text-align: center;">
+                        <button type="info" style="position:relative;">Register now</button>
+                        <br><br>
+                        <span style="font-size:25px;color: lightseagreen" data-aos="fade-right">Venue: Zairza</span><br>
+                        <span style="font-size:25px;color: lightseagreen" data-aos="fade-left">Date: 1st October</span>
+                     </div>
+
+                
+            </div>
+</div>
+</section>
+  <!-- agenda
+    ================================================== -->
+    <section id='agenda' class="s-about">
+
+            <div class="row section-header has-bottom-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead subhead--dark">  This agenda viewer will let you see multiple events cleanly!</h3>
+                    <h1 class="display-1 display-1--light" style="font-size:40px">Agenda</h1>
+                </div>
+            </div> <!-- end section-header -->
+            <div class="container">
+                      
+                      
+                        <hr />
+                    
+                        <div class="agenda">
+                            <div class="table-responsive">
+                                <table class="table table-condensed table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Time</th>
+                                            <th>Event</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Single event in a single day -->
+                                        <tr>
+                                            <td class="agenda-date" class="active" rowspan="1">
+                                                <div class="dayofmonth">26</div>
+                                                <div class="dayofweek">Saturday</div>
+                                                <div class="shortdate text-muted">Oct, 2018</div>
+                                            </td>
+                                            <td class="agenda-time">
+                                                5:30 AM
+                                            </td>
+                                            <td class="agenda-events">
+                                                <div class="agenda-event">
+                                                    <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                                    Fishing
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                        <!-- Multiple events in a single day (note the rowspan) -->
+                                        <tr>
+                                            <td class="agenda-date" class="active" rowspan="3">
+                                                <div class="dayofmonth">24</div>
+                                                <div class="dayofweek">Thursday</div>
+                                                <div class="shortdate text-muted">Oct, 2018</div>
+                                            </td>
+                                            <td class="agenda-time">
+                                                8:00 - 9:00 AM 
+                                            </td>
+                                            <td class="agenda-events">
+                                                <div class="agenda-event">
+                                                    Doctor's Appointment
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="agenda-time">
+                                                10:15 AM - 12:00 PM 
+                                            </td>
+                                            <td class="agenda-events">
+                                                <div class="agenda-event">
+                                                    Meeting with executives
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="agenda-time">
+                                                7:00 - 9:00 PM
+                                            </td>
+                                            <td class="agenda-events">
+                                                <div class="agenda-event">
+                                                    Aria's dance recital
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+</section>                    
+  <!-- analysis
+    ================================================== -->
+    <section id='analysis' class="s-services">
+
+            <div class="row section-header has-bottom-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead ">2017 Analysis</h3>
+                    <h1 class="display-2" style="font-size:40px">Global stats from Hacktoberfest 2017</h1>
+                </div>
+            </div> <!-- end section-header -->
+
+            <div class="row about-stats stats block-1-3 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+                    <div class="col-block stats__col ">
+                        <div class="stats__count">31901</div>
+                        <h5>CHALLENGE COMPLETIONS</h5>
+                    </div>
+                    <div class="col-block stats__col">
+                        <div class="stats__count">239164</div>
+                        <h5> PULL REQUESTS OPENED</h5>
+                    </div>
+                    <div class="col-block stats__col">
+                        <div class="stats__count">64166</div>
+                        <h5>PARTICIPATING REPOSITORIES</h5>
+                    </div>
+                   
+                </div> <!-- end about-stats -->
+    
+        
+            </section> <!-- end s-about -->
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+            
+          
+            <div class="contact-primary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p>
+                            Zairza<br>
+                            College of Engineering and Technology,
+                            <br>Bhubaneswar
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p>
+                                campusmin .in@gmail.com <br>
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            Mobile: +919032002323<br>
+                            Mobile: +918125002323<br>
+
+                        </p>
+                    </div>
+
+                    <ul class="contact-social" style="position:relative">
+                        <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39px" height="39px" viewBox="0 0 39 39" version="1.1" role="img" aria-labelledby="s37o96v5w0qup83324gnuptvtmssrt3 l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="s37o96v5w0qup83324gnuptvtmssrt3">DigitalOcean</title>
+                                    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                                    
+                                    <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                                    <defs></defs>
+                                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="hacktoberfest-landing_v7" transform="translate(-701.000000, -3009.000000)" fill="#FFFFFF">
+                                            <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                                <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                                    <g id="icon-do" transform="translate(0.000000, 1.000000)">
+                                                        <g id="XMLID_48_">
+                                                            <path d="M19.4430023,38.7428583 L19.4430023,31.3133455 C27.3388695,31.3133455 33.4091026,23.519194 30.3968064,15.2236643 C29.301426,12.1698155 26.8368201,9.7085045 23.7788831,8.6145885 C15.4722483,5.6063195 7.66766289,11.7140172 7.66766289,19.5537485 L7.66766289,19.5537485 L0.228204253,19.5537485 C0.228204253,7.01929433 12.3686705,-2.78036983 25.5132354,1.32181517 C31.2639826,3.09942867 35.8280677,7.70299184 37.6537017,13.4460508 C41.7613782,26.6186227 31.9942362,38.7428583 19.4430023,38.7428583 L19.4430023,38.7428583 Z" id="XMLID_49_"></path>
+                                                        </g>
+                                                        <polygon id="XMLID_47_" points="19.4430023 31.3589253 12.0491845 31.3589253 12.0491845 23.9749923 12.0491845 23.9749923 19.4430023 23.9749923 19.4430023 23.9749923"></polygon>
+                                                        <polygon id="XMLID_46_" points="12.0491845 37.0564045 6.34407822 37.0564045 6.34407822 37.0564045 6.34407822 31.3589253 12.0491845 31.3589253"></polygon>
+                                                        <path d="M6.34407822,31.3589253 L1.55178892,31.3589253 L1.55178892,31.3589253 L1.55178892,26.6186227 L1.55178892,26.6186227 L6.29843737,26.6186227 L6.29843737,26.6186227 L6.29843737,31.3589253 L6.34407822,31.3589253 Z" id="XMLID_45_"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            <a href="https://www.digitalocean.com/"><i class="fab fa-digital-ocean" aria-hidden="true"></i><span>DigitalOceans</span></a>
+                        </li>
+                        <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="39px" viewBox="0 0 40 39" version="1.1" role="img" aria-labelledby="dbzkbmj8rgatuszlkfivony3fkorp8f l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="dbzkbmj8rgatuszlkfivony3fkorp8f">GitHub</title>
+                                    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                                    
+                                    <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                                    <defs></defs>
+                                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="hacktoberfest-landing_v7" transform="translate(-780.000000, -3009.000000)" fill="#FEFEFE">
+                                            <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                                <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                                    <path d="M98.9987723,1 C87.9551872,1 79,9.95254676 79,20.9953303 C79,29.8275933 84.7298956,37.3220066 92.6783303,39.9657941 C93.6789441,40.1486745 94.043585,39.5325272 94.043585,39.0022968 C94.043585,38.5272988 94.0263966,37.2704565 94.0165746,35.6012127 C88.4536525,36.8101871 87.2799263,32.9218311 87.2799263,32.9218311 C86.3701657,30.6118924 85.0589319,29.9969725 85.0589319,29.9969725 C83.2430939,28.7560862 85.1964395,28.7818613 85.1964395,28.7818613 C87.203806,28.9230105 88.2596685,30.8414134 88.2596685,30.8414134 C90.043585,33.8976023 92.9398404,33.0151124 94.0804174,32.5032928 C94.262124,31.2108563 94.7777778,30.3295938 95.3499079,29.8300481 C90.9091467,29.3255928 86.2400246,27.6109359 86.2400246,19.9483708 C86.2400246,17.7660802 87.019644,15.9814623 88.2989564,14.5834707 C88.0926949,14.077788 87.4063843,12.0452383 88.4941682,9.29344098 C88.4941682,9.29344098 90.1737262,8.75461893 93.9944751,11.3419467 C95.5893186,10.8988607 97.300798,10.676704 99.0012277,10.6693396 C100.699202,10.676704 102.410681,10.8988607 104.00798,11.3419467 C107.826274,8.75461893 109.502149,9.29344098 109.502149,9.29344098 C110.593616,12.0452383 109.907305,14.077788 109.701044,14.5834707 C110.982812,15.9814623 111.75752,17.7660802 111.75752,19.9483708 C111.75752,27.6293467 107.081031,29.3194559 102.625537,29.8153195 C103.343769,30.4314668 103.983425,31.652715 103.983425,33.5171129 C103.983425,36.1903576 103.95887,38.3468732 103.95887,39.0022968 C103.95887,39.5362093 104.3186,40.1584935 105.333947,39.9633393 C113.273788,37.3146423 119,29.8251386 119,20.9953303 C119,9.95254676 110.044813,1 98.9987723,1" id="icon-github"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            <a href="https://github.com/"><i class="#" aria-hidden="true"></i><span>Github</span></a>
+                        </li><br>
+                        <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 0 40 40" version="1.1" role="img" aria-labelledby="hydiohj5b0n8wz6lca2ye4u5iaj80xd l1bc0610ek2gqye5ebsbttyeav9mn9q" class="footer__logo"><title id="hydiohj5b0n8wz6lca2ye4u5iaj80xd">Twilio</title>
+                                    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                                    
+                                    <desc id="l1bc0610ek2gqye5ebsbttyeav9mn9q">Created with Sketch.</desc>
+                                    <defs></defs>
+                                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="hacktoberfest-landing_v7" transform="translate(-860.000000, -3008.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                            <g id="footer" transform="translate(552.000000, 3008.000000)">
+                                                <g id="Group-9" transform="translate(149.000000, 0.000000)">
+                                                    <g id="icon-twilio" transform="translate(159.000000, 0.000000)">
+                                                        <path d="M20,0 C8.93333333,0 0,8.93333333 0,20 C0,31.0666667 8.93333333,40 20,40 C31.0666667,40 40,31.0666667 40,20 C40,8.93333333 31.0666667,0 20,0 Z M20,34.6666667 C11.8666667,34.6666667 5.33333333,28.1333333 5.33333333,20 C5.33333333,11.8666667 11.8666667,5.33333333 20,5.33333333 C28.1333333,5.33333333 34.6666667,11.8666667 34.6666667,20 C34.6666667,28.1333333 28.1333333,34.6666667 20,34.6666667 Z M29.0666667,15.0666667 C29.0666667,17.3333333 27.2,19.2 24.9333333,19.2 C22.6666667,19.2 20.8,17.3333333 20.8,15.0666667 C20.8,12.8 22.6666667,10.9333333 24.9333333,10.9333333 C27.2,10.9333333 29.0666667,12.8 29.0666667,15.0666667 Z M29.0666667,24.9333333 C29.0666667,27.2 27.2,29.0666667 24.9333333,29.0666667 C22.6666667,29.0666667 20.8,27.2 20.8,24.9333333 C20.8,22.6666667 22.6666667,20.8 24.9333333,20.8 C27.2,20.8 29.0666667,22.6666667 29.0666667,24.9333333 Z M19.2,24.9333333 C19.2,27.2 17.3333333,29.0666667 15.0666667,29.0666667 C12.8,29.0666667 10.9333333,27.2 10.9333333,24.9333333 C10.9333333,22.6666667 12.8,20.8 15.0666667,20.8 C17.3333333,20.8 19.2,22.6666667 19.2,24.9333333 Z M19.2,15.0666667 C19.2,17.3333333 17.3333333,19.2 15.0666667,19.2 C12.8,19.2 10.9333333,17.3333333 10.9333333,15.0666667 C10.9333333,12.8 12.8,10.9333333 15.0666667,10.9333333 C17.3333333,10.9333333 19.2,12.8 19.2,15.0666667 Z" id="Shape"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            <a href="https://www.twilio.com/"><i class="fa fa-twilio" aria-hidden="true"></i><span>Twilio</span></a>
+                        </li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="row footer-main">
+            <p style="text-align: center">@Hactoberfest2018</p>
+
+        </div> <!-- end footer-main -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
