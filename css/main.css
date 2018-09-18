@@ -87,12 +87,11 @@ body {
 
 time.icon
 {
-    float: right;
   font-size: 1em; /* change icon size */
   display: block;
   position: relative;
-  width: 7em;
-  height: 8em;
+  width: 9em;
+  height: 10em;
   background-color: #fff;
   border-radius: 0.6em;
   box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
@@ -2824,6 +2823,9 @@ html.no-csstransitions .home-content__main {
     border-spacing: 0;
     width: 80%;
     border: 2px solid #ddd;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
    }
 
 /* Dates */
